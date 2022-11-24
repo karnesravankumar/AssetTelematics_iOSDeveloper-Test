@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28ABC60A5E7DFA730CA933BE /* Pods_AssetTelematics_InterviewTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A80B722A46CF1BF3750D5 /* Pods_AssetTelematics_InterviewTaskTests.framework */; };
+		37017DBD13D2E4281DC5E880 /* Pods_AssetTelematics_InterviewTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482C6B316CB028C8B3118A49 /* Pods_AssetTelematics_InterviewTask.framework */; };
+		523FF925292EBEB200EEE675 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FF924292EBEB200EEE675 /* ScannerViewController.swift */; };
+		52FF0325292DF6260043C50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0324292DF6260043C50D /* AppDelegate.swift */; };
+		52FF0327292DF6260043C50D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0326292DF6260043C50D /* SceneDelegate.swift */; };
+		52FF0329292DF6260043C50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0328292DF6260043C50D /* ViewController.swift */; };
+		52FF032C292DF6260043C50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FF032A292DF6260043C50D /* Main.storyboard */; };
+		52FF032F292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52FF032D292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodeld */; };
+		52FF0331292DF6280043C50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FF0330292DF6280043C50D /* Assets.xcassets */; };
+		52FF0334292DF6280043C50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FF0332292DF6280043C50D /* LaunchScreen.storyboard */; };
+		52FF033F292DF6280043C50D /* AssetTelematics_InterviewTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF033E292DF6280043C50D /* AssetTelematics_InterviewTaskTests.swift */; };
+		52FF0349292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0348292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.swift */; };
+		52FF034B292DF6280043C50D /* AssetTelematics_InterviewTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF034A292DF6280043C50D /* AssetTelematics_InterviewTaskUITestsLaunchTests.swift */; };
+		52FF0377292E39FC0043C50D /* Manufacture_year.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0371292E39FB0043C50D /* Manufacture_year.swift */; };
+		52FF0378292E39FC0043C50D /* Vehicle_capacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0372292E39FB0043C50D /* Vehicle_capacity.swift */; };
+		52FF0379292E39FC0043C50D /* Fuel_type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0373292E39FC0043C50D /* Fuel_type.swift */; };
+		52FF037A292E39FC0043C50D /* Vehicle_make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0374292E39FC0043C50D /* Vehicle_make.swift */; };
+		52FF037B292E39FC0043C50D /* Vehicle_type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0375292E39FC0043C50D /* Vehicle_type.swift */; };
+		52FF037C292E39FC0043C50D /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF0376292E39FC0043C50D /* VehicleData.swift */; };
+		52FF037E292E3A530043C50D /* VehicleDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF037D292E3A530043C50D /* VehicleDataViewModel.swift */; };
+		AD1F1F9960299D05A7500AC6 /* Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4EC14D086DEB809FA0E36E /* Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FF033B292DF6280043C50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FF0319292DF6260043C50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FF0320292DF6260043C50D;
+			remoteInfo = AssetTelematics_InterviewTask;
+		};
+		52FF0345292DF6280043C50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FF0319292DF6260043C50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FF0320292DF6260043C50D;
+			remoteInfo = AssetTelematics_InterviewTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B10F2C0F7FB39A431F35630 /* Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests/Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D4EC14D086DEB809FA0E36E /* Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9C3A43A90A712F126D42C5 /* Pods-AssetTelematics_InterviewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetTelematics_InterviewTask.release.xcconfig"; path = "Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask.release.xcconfig"; sourceTree = "<group>"; };
+		482C6B316CB028C8B3118A49 /* Pods_AssetTelematics_InterviewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssetTelematics_InterviewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA37F2293E26A9A48E95E0A /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		523FF924292EBEB200EEE675 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		52FF0321292DF6260043C50D /* AssetTelematics_InterviewTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetTelematics_InterviewTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF0324292DF6260043C50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FF0326292DF6260043C50D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52FF0328292DF6260043C50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52FF032B292DF6260043C50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FF032E292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssetTelematics_InterviewTask.xcdatamodel; sourceTree = "<group>"; };
+		52FF0330292DF6280043C50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FF0333292DF6280043C50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FF0335292DF6280043C50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FF033A292DF6280043C50D /* AssetTelematics_InterviewTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetTelematics_InterviewTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF033E292DF6280043C50D /* AssetTelematics_InterviewTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTelematics_InterviewTaskTests.swift; sourceTree = "<group>"; };
+		52FF0344292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetTelematics_InterviewTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF0348292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTelematics_InterviewTaskUITests.swift; sourceTree = "<group>"; };
+		52FF034A292DF6280043C50D /* AssetTelematics_InterviewTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTelematics_InterviewTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52FF0371292E39FB0043C50D /* Manufacture_year.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manufacture_year.swift; sourceTree = "<group>"; };
+		52FF0372292E39FB0043C50D /* Vehicle_capacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle_capacity.swift; sourceTree = "<group>"; };
+		52FF0373292E39FC0043C50D /* Fuel_type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fuel_type.swift; sourceTree = "<group>"; };
+		52FF0374292E39FC0043C50D /* Vehicle_make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle_make.swift; sourceTree = "<group>"; };
+		52FF0375292E39FC0043C50D /* Vehicle_type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle_type.swift; sourceTree = "<group>"; };
+		52FF0376292E39FC0043C50D /* VehicleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
+		52FF037D292E3A530043C50D /* VehicleDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDataViewModel.swift; sourceTree = "<group>"; };
+		6A39529C7DB01D7231A32E63 /* Pods-AssetTelematics_InterviewTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetTelematics_InterviewTaskTests.release.xcconfig"; path = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests/Pods-AssetTelematics_InterviewTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		8994DA770C7A4153E156F3B1 /* Pods-AssetTelematics_InterviewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetTelematics_InterviewTask.debug.xcconfig"; path = "Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask.debug.xcconfig"; sourceTree = "<group>"; };
+		97C2928647CED02AF9712DF2 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C19A80B722A46CF1BF3750D5 /* Pods_AssetTelematics_InterviewTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssetTelematics_InterviewTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FF031E292DF6260043C50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37017DBD13D2E4281DC5E880 /* Pods_AssetTelematics_InterviewTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF0337292DF6280043C50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABC60A5E7DFA730CA933BE /* Pods_AssetTelematics_InterviewTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF0341292DF6280043C50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F1F9960299D05A7500AC6 /* Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52FF0318292DF6260043C50D = {
+			isa = PBXGroup;
+			children = (
+				52FF0323292DF6260043C50D /* AssetTelematics_InterviewTask */,
+				52FF033D292DF6280043C50D /* AssetTelematics_InterviewTaskTests */,
+				52FF0347292DF6280043C50D /* AssetTelematics_InterviewTaskUITests */,
+				52FF0322292DF6260043C50D /* Products */,
+				F64BC21FA8B04DA80F15B8FF /* Pods */,
+				F8BB3699F0E6C7177BA8FD23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52FF0322292DF6260043C50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FF0321292DF6260043C50D /* AssetTelematics_InterviewTask.app */,
+				52FF033A292DF6280043C50D /* AssetTelematics_InterviewTaskTests.xctest */,
+				52FF0344292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FF0323292DF6260043C50D /* AssetTelematics_InterviewTask */ = {
+			isa = PBXGroup;
+			children = (
+				52FF035D292E2E400043C50D /* App Delegates */,
+				52FF035B292E2E090043C50D /* Model */,
+				52FF0359292E2DEB0043C50D /* View Model */,
+				52FF035A292E2DFE0043C50D /* View */,
+				52FF035C292E2E220043C50D /* Controller */,
+				52FF035E292E2E680043C50D /* Services */,
+				52FF0330292DF6280043C50D /* Assets.xcassets */,
+				52FF0335292DF6280043C50D /* Info.plist */,
+				52FF032D292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodeld */,
+			);
+			path = AssetTelematics_InterviewTask;
+			sourceTree = "<group>";
+		};
+		52FF033D292DF6280043C50D /* AssetTelematics_InterviewTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FF033E292DF6280043C50D /* AssetTelematics_InterviewTaskTests.swift */,
+			);
+			path = AssetTelematics_InterviewTaskTests;
+			sourceTree = "<group>";
+		};
+		52FF0347292DF6280043C50D /* AssetTelematics_InterviewTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52FF0348292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.swift */,
+				52FF034A292DF6280043C50D /* AssetTelematics_InterviewTaskUITestsLaunchTests.swift */,
+			);
+			path = AssetTelematics_InterviewTaskUITests;
+			sourceTree = "<group>";
+		};
+		52FF0359292E2DEB0043C50D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FF037D292E3A530043C50D /* VehicleDataViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		52FF035A292E2DFE0043C50D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52FF032A292DF6260043C50D /* Main.storyboard */,
+				52FF0332292DF6280043C50D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52FF035B292E2E090043C50D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FF0373292E39FC0043C50D /* Fuel_type.swift */,
+				52FF0371292E39FB0043C50D /* Manufacture_year.swift */,
+				52FF0372292E39FB0043C50D /* Vehicle_capacity.swift */,
+				52FF0374292E39FC0043C50D /* Vehicle_make.swift */,
+				52FF0375292E39FC0043C50D /* Vehicle_type.swift */,
+				52FF0376292E39FC0043C50D /* VehicleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52FF035C292E2E220043C50D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52FF0328292DF6260043C50D /* ViewController.swift */,
+				523FF924292EBEB200EEE675 /* ScannerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52FF035D292E2E400043C50D /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				52FF0324292DF6260043C50D /* AppDelegate.swift */,
+				52FF0326292DF6260043C50D /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		52FF035E292E2E680043C50D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F64BC21FA8B04DA80F15B8FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8994DA770C7A4153E156F3B1 /* Pods-AssetTelematics_InterviewTask.debug.xcconfig */,
+				0D9C3A43A90A712F126D42C5 /* Pods-AssetTelematics_InterviewTask.release.xcconfig */,
+				4DA37F2293E26A9A48E95E0A /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig */,
+				97C2928647CED02AF9712DF2 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig */,
+				0B10F2C0F7FB39A431F35630 /* Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig */,
+				6A39529C7DB01D7231A32E63 /* Pods-AssetTelematics_InterviewTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8BB3699F0E6C7177BA8FD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				482C6B316CB028C8B3118A49 /* Pods_AssetTelematics_InterviewTask.framework */,
+				0D4EC14D086DEB809FA0E36E /* Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework */,
+				C19A80B722A46CF1BF3750D5 /* Pods_AssetTelematics_InterviewTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FF0320292DF6260043C50D /* AssetTelematics_InterviewTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF034E292DF6280043C50D /* Build configuration list for PBXNativeTarget "AssetTelematics_InterviewTask" */;
+			buildPhases = (
+				10EE145129BC5A58BE769223 /* [CP] Check Pods Manifest.lock */,
+				52FF031D292DF6260043C50D /* Sources */,
+				52FF031E292DF6260043C50D /* Frameworks */,
+				52FF031F292DF6260043C50D /* Resources */,
+				4CA50AC92E5588B60374664A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetTelematics_InterviewTask;
+			productName = AssetTelematics_InterviewTask;
+			productReference = 52FF0321292DF6260043C50D /* AssetTelematics_InterviewTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FF0339292DF6280043C50D /* AssetTelematics_InterviewTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF0351292DF6280043C50D /* Build configuration list for PBXNativeTarget "AssetTelematics_InterviewTaskTests" */;
+			buildPhases = (
+				3B08F18B252588CCADD84093 /* [CP] Check Pods Manifest.lock */,
+				52FF0336292DF6280043C50D /* Sources */,
+				52FF0337292DF6280043C50D /* Frameworks */,
+				52FF0338292DF6280043C50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FF033C292DF6280043C50D /* PBXTargetDependency */,
+			);
+			name = AssetTelematics_InterviewTaskTests;
+			productName = AssetTelematics_InterviewTaskTests;
+			productReference = 52FF033A292DF6280043C50D /* AssetTelematics_InterviewTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52FF0343292DF6280043C50D /* AssetTelematics_InterviewTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF0354292DF6280043C50D /* Build configuration list for PBXNativeTarget "AssetTelematics_InterviewTaskUITests" */;
+			buildPhases = (
+				784D4F059C4B124B70FC9DD8 /* [CP] Check Pods Manifest.lock */,
+				52FF0340292DF6280043C50D /* Sources */,
+				52FF0341292DF6280043C50D /* Frameworks */,
+				52FF0342292DF6280043C50D /* Resources */,
+				CF94AE9FCE88BE1B761632A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FF0346292DF6280043C50D /* PBXTargetDependency */,
+			);
+			name = AssetTelematics_InterviewTaskUITests;
+			productName = AssetTelematics_InterviewTaskUITests;
+			productReference = 52FF0344292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FF0319292DF6260043C50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					52FF0320292DF6260043C50D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					52FF0339292DF6280043C50D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 52FF0320292DF6260043C50D;
+					};
+					52FF0343292DF6280043C50D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 52FF0320292DF6260043C50D;
+					};
+				};
+			};
+			buildConfigurationList = 52FF031C292DF6260043C50D /* Build configuration list for PBXProject "AssetTelematics_InterviewTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FF0318292DF6260043C50D;
+			productRefGroup = 52FF0322292DF6260043C50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FF0320292DF6260043C50D /* AssetTelematics_InterviewTask */,
+				52FF0339292DF6280043C50D /* AssetTelematics_InterviewTaskTests */,
+				52FF0343292DF6280043C50D /* AssetTelematics_InterviewTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FF031F292DF6260043C50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF0334292DF6280043C50D /* LaunchScreen.storyboard in Resources */,
+				52FF0331292DF6280043C50D /* Assets.xcassets in Resources */,
+				52FF032C292DF6260043C50D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF0338292DF6280043C50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF0342292DF6280043C50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10EE145129BC5A58BE769223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AssetTelematics_InterviewTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B08F18B252588CCADD84093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AssetTelematics_InterviewTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA50AC92E5588B60374664A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784D4F059C4B124B70FC9DD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF94AE9FCE88BE1B761632A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FF031D292DF6260043C50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF032F292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodeld in Sources */,
+				52FF037B292E39FC0043C50D /* Vehicle_type.swift in Sources */,
+				52FF0377292E39FC0043C50D /* Manufacture_year.swift in Sources */,
+				52FF037A292E39FC0043C50D /* Vehicle_make.swift in Sources */,
+				52FF037C292E39FC0043C50D /* VehicleData.swift in Sources */,
+				52FF0379292E39FC0043C50D /* Fuel_type.swift in Sources */,
+				52FF0329292DF6260043C50D /* ViewController.swift in Sources */,
+				523FF925292EBEB200EEE675 /* ScannerViewController.swift in Sources */,
+				52FF0325292DF6260043C50D /* AppDelegate.swift in Sources */,
+				52FF0378292E39FC0043C50D /* Vehicle_capacity.swift in Sources */,
+				52FF037E292E3A530043C50D /* VehicleDataViewModel.swift in Sources */,
+				52FF0327292DF6260043C50D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF0336292DF6280043C50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF033F292DF6280043C50D /* AssetTelematics_InterviewTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF0340292DF6280043C50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF0349292DF6280043C50D /* AssetTelematics_InterviewTaskUITests.swift in Sources */,
+				52FF034B292DF6280043C50D /* AssetTelematics_InterviewTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FF033C292DF6280043C50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FF0320292DF6260043C50D /* AssetTelematics_InterviewTask */;
+			targetProxy = 52FF033B292DF6280043C50D /* PBXContainerItemProxy */;
+		};
+		52FF0346292DF6280043C50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FF0320292DF6260043C50D /* AssetTelematics_InterviewTask */;
+			targetProxy = 52FF0345292DF6280043C50D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FF032A292DF6260043C50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FF032B292DF6260043C50D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52FF0332292DF6280043C50D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FF0333292DF6280043C50D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FF034C292DF6280043C50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FF034D292DF6280043C50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FF034F292DF6280043C50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8994DA770C7A4153E156F3B1 /* Pods-AssetTelematics_InterviewTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42X49F8AAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssetTelematics_InterviewTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssetTelematics-InterviewTask.AssetTelematics-InterviewTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FF0350292DF6280043C50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9C3A43A90A712F126D42C5 /* Pods-AssetTelematics_InterviewTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42X49F8AAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssetTelematics_InterviewTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssetTelematics-InterviewTask.AssetTelematics-InterviewTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52FF0352292DF6280043C50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B10F2C0F7FB39A431F35630 /* Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssetTelematics-InterviewTask.AssetTelematics-InterviewTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetTelematics_InterviewTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssetTelematics_InterviewTask";
+			};
+			name = Debug;
+		};
+		52FF0353292DF6280043C50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A39529C7DB01D7231A32E63 /* Pods-AssetTelematics_InterviewTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssetTelematics-InterviewTask.AssetTelematics-InterviewTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetTelematics_InterviewTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssetTelematics_InterviewTask";
+			};
+			name = Release;
+		};
+		52FF0355292DF6280043C50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA37F2293E26A9A48E95E0A /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssetTelematics-InterviewTask.AssetTelematics-InterviewTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AssetTelematics_InterviewTask;
+			};
+			name = Debug;
+		};
+		52FF0356292DF6280043C50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C2928647CED02AF9712DF2 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AssetTelematics-InterviewTask.AssetTelematics-InterviewTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AssetTelematics_InterviewTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FF031C292DF6260043C50D /* Build configuration list for PBXProject "AssetTelematics_InterviewTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF034C292DF6280043C50D /* Debug */,
+				52FF034D292DF6280043C50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF034E292DF6280043C50D /* Build configuration list for PBXNativeTarget "AssetTelematics_InterviewTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF034F292DF6280043C50D /* Debug */,
+				52FF0350292DF6280043C50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF0351292DF6280043C50D /* Build configuration list for PBXNativeTarget "AssetTelematics_InterviewTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF0352292DF6280043C50D /* Debug */,
+				52FF0353292DF6280043C50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF0354292DF6280043C50D /* Build configuration list for PBXNativeTarget "AssetTelematics_InterviewTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF0355292DF6280043C50D /* Debug */,
+				52FF0356292DF6280043C50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52FF032D292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52FF032E292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodel */,
+			);
+			currentVersion = 52FF032E292DF6260043C50D /* AssetTelematics_InterviewTask.xcdatamodel */;
+			path = AssetTelematics_InterviewTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52FF0319292DF6260043C50D /* Project object */;
+}

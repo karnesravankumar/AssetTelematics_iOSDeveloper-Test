@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013057A53232BC6F2BB975D168650F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		041A3E4D8EA0339EAB8C0CD8779CA5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0D3C98F63C07C1066609F85CD35EB833 /* Pods-AssetTelematics_InterviewTaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB616F60E0CEF72B594AFE5C46B0667 /* Pods-AssetTelematics_InterviewTaskTests-dummy.m */; };
+		1C7AA352F112B8B2515BED33E62EE26D /* Pods-AssetTelematics_InterviewTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87168FE0E0AF5F76A8B8BDB438169B0 /* Pods-AssetTelematics_InterviewTask-dummy.m */; };
+		2ADD1E43B5168F189C557EAFBA535ADA /* Pods-AssetTelematics_InterviewTaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4ECCD38F151D603D57802353EE4EB3 /* Pods-AssetTelematics_InterviewTaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37C7FFFE21F180733221339A1416F923 /* Pods-AssetTelematics_InterviewTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A376A84E2CC13ADE5CD5C750D904098 /* Pods-AssetTelematics_InterviewTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D2CAFB3001975F175AD7D099FF73DE2 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B2AEBAF6B40D8D1A103E11E0BCDB0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-dummy.m */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */; };
+		81F13A63239603112290A74A8B9845EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */; };
+		946EFF14A58EB62DAE586E4A9501A56E /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36573BD6D33D5B644180D5C2D038514C /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07EE3A08EE58A7C573C4756297ED5A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D6DE29769DE796F469C9D3D05D49AA;
+			remoteInfo = "Pods-AssetTelematics_InterviewTask";
+		};
+		226EE3C2E120252ADE3F14801D32AF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		8ADF650A5AE0CD0A505904BEAC890066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B52C1C1542C25FC68F9B34E630EABC7 /* Pods-AssetTelematics_InterviewTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssetTelematics_InterviewTask-Info.plist"; sourceTree = "<group>"; };
+		2F4A7FC3A3D0E905DF46C948521DE978 /* Pods-AssetTelematics_InterviewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssetTelematics_InterviewTask.release.xcconfig"; sourceTree = "<group>"; };
+		2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		32F278949A058CD53EB405B0A855483A /* Pods-AssetTelematics_InterviewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssetTelematics_InterviewTask.debug.xcconfig"; sourceTree = "<group>"; };
+		3376550D0E872AFB2F3AD4D56BE91658 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36573BD6D33D5B644180D5C2D038514C /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h"; sourceTree = "<group>"; };
+		3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		436DEB09D1F0D70E19EB771AC682EE24 /* Pods-AssetTelematics_InterviewTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssetTelematics_InterviewTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		443A7E20DECE1D3C75F46E8273EF3242 /* Pods-AssetTelematics_InterviewTaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssetTelematics_InterviewTaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		4F94A34B099738652DC0036C3E44AE36 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.modulemap"; sourceTree = "<group>"; };
+		57C03C6483BCAB1164C1002D7E22D0D3 /* Pods-AssetTelematics_InterviewTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AssetTelematics_InterviewTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B7AA325F005BD67B76FA87E15A53343 /* Pods-AssetTelematics_InterviewTaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AssetTelematics_InterviewTaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D728B30CFCF64301F89C82E1B6D78E0 /* Pods-AssetTelematics_InterviewTaskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssetTelematics_InterviewTaskTests-Info.plist"; sourceTree = "<group>"; };
+		6A376A84E2CC13ADE5CD5C750D904098 /* Pods-AssetTelematics_InterviewTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AssetTelematics_InterviewTask-umbrella.h"; sourceTree = "<group>"; };
+		6B56931DAA8922DA37B6440A459B4988 /* Pods-AssetTelematics_InterviewTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AssetTelematics_InterviewTask-frameworks.sh"; sourceTree = "<group>"; };
+		6CB616F60E0CEF72B594AFE5C46B0667 /* Pods-AssetTelematics_InterviewTaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AssetTelematics_InterviewTaskTests-dummy.m"; sourceTree = "<group>"; };
+		6E92E3CADC02520BE23EC188550FA19E /* Pods-AssetTelematics_InterviewTaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AssetTelematics_InterviewTaskTests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		736B2AEBAF6B40D8D1A103E11E0BCDB0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-dummy.m"; sourceTree = "<group>"; };
+		83F25D3829D7A64E3B26B2A65F65936C /* Pods-AssetTelematics_InterviewTask */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AssetTelematics_InterviewTask"; path = Pods_AssetTelematics_InterviewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		B20EF882160F6786731B603353C2F8B8 /* Pods-AssetTelematics_InterviewTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssetTelematics_InterviewTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3E1ED7CBD3F6422830CD8B916B58CBE /* Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5234400A846338AA26A7D38AFF0A7E3 /* Pods-AssetTelematics_InterviewTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AssetTelematics_InterviewTask.modulemap"; sourceTree = "<group>"; };
+		C687402CAB0B633E2AE64E47E23E2D45 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CB4ECCD38F151D603D57802353EE4EB3 /* Pods-AssetTelematics_InterviewTaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AssetTelematics_InterviewTaskTests-umbrella.h"; sourceTree = "<group>"; };
+		CBE511A6D0F9CFEF506D09E5E98D30B6 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D87168FE0E0AF5F76A8B8BDB438169B0 /* Pods-AssetTelematics_InterviewTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AssetTelematics_InterviewTask-dummy.m"; sourceTree = "<group>"; };
+		D91868E77E4311FFA7F13FB60D1B3FEE /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB1573AA2BAD6AC9AC8BD99392DAE6F0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests"; path = Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		E0B62B9A6F9B702ADBB42ED002EB47CC /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E111F78A5337CCBBDD6DABDD47996025 /* Pods-AssetTelematics_InterviewTaskTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AssetTelematics_InterviewTaskTests"; path = Pods_AssetTelematics_InterviewTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		FF67D5BB0ACF4D67DB41333FCF548A6A /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E81192373BDBF33FFAFC2419B39BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013057A53232BC6F2BB975D168650F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4F93E984D546069F475DF063544B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F13A63239603112290A74A8B9845EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E717CE91AB2EB4A72B72010EFA69ACB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A3E4D8EA0339EAB8C0CD8779CA5C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0251FC8FE6EE293A148A6FE7B17E8BA7 /* Pods-AssetTelematics_InterviewTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E92E3CADC02520BE23EC188550FA19E /* Pods-AssetTelematics_InterviewTaskTests.modulemap */,
+				5B7AA325F005BD67B76FA87E15A53343 /* Pods-AssetTelematics_InterviewTaskTests-acknowledgements.markdown */,
+				443A7E20DECE1D3C75F46E8273EF3242 /* Pods-AssetTelematics_InterviewTaskTests-acknowledgements.plist */,
+				6CB616F60E0CEF72B594AFE5C46B0667 /* Pods-AssetTelematics_InterviewTaskTests-dummy.m */,
+				5D728B30CFCF64301F89C82E1B6D78E0 /* Pods-AssetTelematics_InterviewTaskTests-Info.plist */,
+				CB4ECCD38F151D603D57802353EE4EB3 /* Pods-AssetTelematics_InterviewTaskTests-umbrella.h */,
+				B3E1ED7CBD3F6422830CD8B916B58CBE /* Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig */,
+				436DEB09D1F0D70E19EB771AC682EE24 /* Pods-AssetTelematics_InterviewTaskTests.release.xcconfig */,
+			);
+			name = "Pods-AssetTelematics_InterviewTaskTests";
+			path = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests";
+			sourceTree = "<group>";
+		};
+		03D114B328A63C934E528549C2DCFE8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */,
+				AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */,
+				2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */,
+				730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */,
+				F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */,
+				E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */,
+				9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1340602042F82FB2F98974EB1B0C2387 /* DropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1340602042F82FB2F98974EB1B0C2387 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */,
+				8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */,
+				451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */,
+				2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */,
+				A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */,
+				93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */,
+				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
+				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		20F636C9223C8CA79EB92FC755C93D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				83F25D3829D7A64E3B26B2A65F65936C /* Pods-AssetTelematics_InterviewTask */,
+				DB1573AA2BAD6AC9AC8BD99392DAE6F0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */,
+				E111F78A5337CCBBDD6DABDD47996025 /* Pods-AssetTelematics_InterviewTaskTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2624E9AF456215CA6DBF673E10AAB0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F94A34B099738652DC0036C3E44AE36 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.modulemap */,
+				3376550D0E872AFB2F3AD4D56BE91658 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-acknowledgements.markdown */,
+				E0B62B9A6F9B702ADBB42ED002EB47CC /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-acknowledgements.plist */,
+				736B2AEBAF6B40D8D1A103E11E0BCDB0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-dummy.m */,
+				C687402CAB0B633E2AE64E47E23E2D45 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-frameworks.sh */,
+				FF67D5BB0ACF4D67DB41333FCF548A6A /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-Info.plist */,
+				36573BD6D33D5B644180D5C2D038514C /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h */,
+				CBE511A6D0F9CFEF506D09E5E98D30B6 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig */,
+				D91868E77E4311FFA7F13FB60D1B3FEE /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig */,
+			);
+			name = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests";
+			path = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		591EEE96B9DD1AF519A92CA6B5D12C98 /* Pods-AssetTelematics_InterviewTask */ = {
+			isa = PBXGroup;
+			children = (
+				C5234400A846338AA26A7D38AFF0A7E3 /* Pods-AssetTelematics_InterviewTask.modulemap */,
+				57C03C6483BCAB1164C1002D7E22D0D3 /* Pods-AssetTelematics_InterviewTask-acknowledgements.markdown */,
+				B20EF882160F6786731B603353C2F8B8 /* Pods-AssetTelematics_InterviewTask-acknowledgements.plist */,
+				D87168FE0E0AF5F76A8B8BDB438169B0 /* Pods-AssetTelematics_InterviewTask-dummy.m */,
+				6B56931DAA8922DA37B6440A459B4988 /* Pods-AssetTelematics_InterviewTask-frameworks.sh */,
+				1B52C1C1542C25FC68F9B34E630EABC7 /* Pods-AssetTelematics_InterviewTask-Info.plist */,
+				6A376A84E2CC13ADE5CD5C750D904098 /* Pods-AssetTelematics_InterviewTask-umbrella.h */,
+				32F278949A058CD53EB405B0A855483A /* Pods-AssetTelematics_InterviewTask.debug.xcconfig */,
+				2F4A7FC3A3D0E905DF46C948521DE978 /* Pods-AssetTelematics_InterviewTask.release.xcconfig */,
+			);
+			name = "Pods-AssetTelematics_InterviewTask";
+			path = "Target Support Files/Pods-AssetTelematics_InterviewTask";
+			sourceTree = "<group>";
+		};
+		842F93133433C541B9C1B8A1A32CFC7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				591EEE96B9DD1AF519A92CA6B5D12C98 /* Pods-AssetTelematics_InterviewTask */,
+				2C2624E9AF456215CA6DBF673E10AAB0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */,
+				0251FC8FE6EE293A148A6FE7B17E8BA7 /* Pods-AssetTelematics_InterviewTaskTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C59647B6F3C67ED72D999C113D892AF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
+				20F636C9223C8CA79EB92FC755C93D40 /* Products */,
+				842F93133433C541B9C1B8A1A32CFC7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E0520FCE904F1E50ABFDCC7D07B8434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADD1E43B5168F189C557EAFBA535ADA /* Pods-AssetTelematics_InterviewTaskTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310F3675F7E8632CAC8889507B11C2F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946EFF14A58EB62DAE586E4A9501A56E /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7708B849E80FB0AC2BED8D0BB20FA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C7FFFE21F180733221339A1416F923 /* Pods-AssetTelematics_InterviewTask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28D6DE29769DE796F469C9D3D05D49AA /* Pods-AssetTelematics_InterviewTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA3CEF33BBA175AF137874FEF55D35 /* Build configuration list for PBXNativeTarget "Pods-AssetTelematics_InterviewTask" */;
+			buildPhases = (
+				7B7708B849E80FB0AC2BED8D0BB20FA6 /* Headers */,
+				A186EEF1D6135500F7FBAD4F4D5AE843 /* Sources */,
+				E717CE91AB2EB4A72B72010EFA69ACB6 /* Frameworks */,
+				673FB6FE558636F13FD8E09BCF68BAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007302120739EC7812486B091571BA7A /* PBXTargetDependency */,
+			);
+			name = "Pods-AssetTelematics_InterviewTask";
+			productName = Pods_AssetTelematics_InterviewTask;
+			productReference = 83F25D3829D7A64E3B26B2A65F65936C /* Pods-AssetTelematics_InterviewTask */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3E8CCCEA7844F236CDADF4CC5D6A74A /* Pods-AssetTelematics_InterviewTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A21F8F90B2C69121AAE1D7859465FBD /* Build configuration list for PBXNativeTarget "Pods-AssetTelematics_InterviewTaskTests" */;
+			buildPhases = (
+				2E0520FCE904F1E50ABFDCC7D07B8434 /* Headers */,
+				CD843823EC8062FD9A2E0C7EDF31FC96 /* Sources */,
+				7F4F93E984D546069F475DF063544B17 /* Frameworks */,
+				CBB58DCF828DA1BA30BAEC9A297F2C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBF8B6485E918DD53A6AF9D71002B04 /* PBXTargetDependency */,
+			);
+			name = "Pods-AssetTelematics_InterviewTaskTests";
+			productName = Pods_AssetTelematics_InterviewTaskTests;
+			productReference = E111F78A5337CCBBDD6DABDD47996025 /* Pods-AssetTelematics_InterviewTaskTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+		F019FE2C8E0679730A74FB3FA199B1FA /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838EB3C5D2E996B05E6991586A45A170 /* Build configuration list for PBXNativeTarget "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests" */;
+			buildPhases = (
+				310F3675F7E8632CAC8889507B11C2F0 /* Headers */,
+				0BA7BD04AA04077A8FA0B9899DF67946 /* Sources */,
+				44E81192373BDBF33FFAFC2419B39BD9 /* Frameworks */,
+				FBC54C5D58E41556E694D373D8E9ABC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F826F64FD47EBA69149A6CCEAC65CF2B /* PBXTargetDependency */,
+			);
+			name = "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests";
+			productName = Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests;
+			productReference = DB1573AA2BAD6AC9AC8BD99392DAE6F0 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 20F636C9223C8CA79EB92FC755C93D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				28D6DE29769DE796F469C9D3D05D49AA /* Pods-AssetTelematics_InterviewTask */,
+				F019FE2C8E0679730A74FB3FA199B1FA /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests */,
+				E3E8CCCEA7844F236CDADF4CC5D6A74A /* Pods-AssetTelematics_InterviewTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673FB6FE558636F13FD8E09BCF68BAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB58DCF828DA1BA30BAEC9A297F2C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC54C5D58E41556E694D373D8E9ABC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA7BD04AA04077A8FA0B9899DF67946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2CAFB3001975F175AD7D099FF73DE2 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A186EEF1D6135500F7FBAD4F4D5AE843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7AA352F112B8B2515BED33E62EE26D /* Pods-AssetTelematics_InterviewTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD843823EC8062FD9A2E0C7EDF31FC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3C98F63C07C1066609F85CD35EB833 /* Pods-AssetTelematics_InterviewTaskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007302120739EC7812486B091571BA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 8ADF650A5AE0CD0A505904BEAC890066 /* PBXContainerItemProxy */;
+		};
+		ECBF8B6485E918DD53A6AF9D71002B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AssetTelematics_InterviewTask";
+			target = 28D6DE29769DE796F469C9D3D05D49AA /* Pods-AssetTelematics_InterviewTask */;
+			targetProxy = 07EE3A08EE58A7C573C4756297ED5A1D /* PBXContainerItemProxy */;
+		};
+		F826F64FD47EBA69149A6CCEAC65CF2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 226EE3C2E120252ADE3F14801D32AF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ED53898BB06619C01785B66A83C3022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E1ED7CBD3F6422830CD8B916B58CBE /* Pods-AssetTelematics_InterviewTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests/Pods-AssetTelematics_InterviewTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests/Pods-AssetTelematics_InterviewTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40BD47AB2CD5E9C7C482D1CFEA67E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436DEB09D1F0D70E19EB771AC682EE24 /* Pods-AssetTelematics_InterviewTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests/Pods-AssetTelematics_InterviewTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTaskTests/Pods-AssetTelematics_InterviewTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FCFD8D482502FC3EC74E710DAC91EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91868E77E4311FFA7F13FB60D1B3FEE /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B94517836F0E6CEA011FAF93E31CBCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4A7FC3A3D0E905DF46C948521DE978 /* Pods-AssetTelematics_InterviewTask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2F7950203DC76953BFF6D3539719ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F278949A058CD53EB405B0A855483A /* Pods-AssetTelematics_InterviewTask.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask/Pods-AssetTelematics_InterviewTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED0923A72D257DD64BAF9D3F7623191A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE511A6D0F9CFEF506D09E5E98D30B6 /* Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests/Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A21F8F90B2C69121AAE1D7859465FBD /* Build configuration list for PBXNativeTarget "Pods-AssetTelematics_InterviewTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED53898BB06619C01785B66A83C3022 /* Debug */,
+				40BD47AB2CD5E9C7C482D1CFEA67E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838EB3C5D2E996B05E6991586A45A170 /* Build configuration list for PBXNativeTarget "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0923A72D257DD64BAF9D3F7623191A /* Debug */,
+				4FCFD8D482502FC3EC74E710DAC91EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA3CEF33BBA175AF137874FEF55D35 /* Build configuration list for PBXNativeTarget "Pods-AssetTelematics_InterviewTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F7950203DC76953BFF6D3539719ADE /* Debug */,
+				B94517836F0E6CEA011FAF93E31CBCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

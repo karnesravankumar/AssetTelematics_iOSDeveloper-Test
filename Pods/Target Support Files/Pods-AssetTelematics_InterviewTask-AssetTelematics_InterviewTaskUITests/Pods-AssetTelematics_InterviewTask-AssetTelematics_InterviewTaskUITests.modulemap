@@ -1,0 +1,6 @@
+framework module Pods_AssetTelematics_InterviewTask_AssetTelematics_InterviewTaskUITests {
+  umbrella header "Pods-AssetTelematics_InterviewTask-AssetTelematics_InterviewTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
